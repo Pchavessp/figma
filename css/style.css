@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato/Lato-Regular.ttf') format(ttf);
+    src: url('../fonts/lato/Lato-Bold.ttf') format(ttf);
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather/Merriweather-Regular.ttf') format(ttf);
+    src: url('../fonts/Merriweather/Merriweather-Bold.ttf') format(ttf);
+    src: url('../fonts/Merriweather/Merriweather-Light.ttf') format(ttf);
+}
+
+body {
+    background-image: url("../IMAGENS/fundocorrigido.jpeg");
+    background-size: cover;
+    background-position: 40px 95px;
+    background-repeat: no-repeat;
+    font-family: 'lato';
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    display: flex;
+}
+
+header img {
+    float: left;
+    height: 150px;
+    width: auto;
+    margin: 10px;
+    margin-right: 40px;
+}
+
+a {
+    float: right;
+    text-align: center;
+    color: white;
+    font-family: 'Lato';
+    font-size: 50px;
+    margin-right: 100px;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(99, 7, 7);
+    color: black;
+    text-decoration: underline;
+}
+
+main {
+    text-align: left;
+    padding: 50px;
+    color: white;
+}
+
+main h1 {
+    font-family: 'Merriweather';
+    font-size: 80px;
+}
+
+main h2 {
+    font-family: 'Merriweather';
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-family: 'lato';
+    text-align: justify;
+    font-size: 35px;
+    width: 50%;
+    margin-left: 0;
+    margin-right: auto;
+    padding: 0;
+}
