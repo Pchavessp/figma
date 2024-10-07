@@ -17,7 +17,7 @@
 }
 
 body {
-    background-image: url("../IMAGENS/fundocorrigido.jpeg");
+    background-image: url("./IMAGENS/fundocorrigido.jpeg");
     background-size: cover;
     background-position: 40px 95px;
     background-repeat: no-repeat;
